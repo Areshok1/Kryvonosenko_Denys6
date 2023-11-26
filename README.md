@@ -46,12 +46,3 @@ The `Booking` class contains methods for booking seats, canceling bookings, and 
 - **cancelBooking**: Cancels the booking of selected seats in a specific cinema hall.
 
 - **checkAvailability**: Checks if a specified number of seats is available in a particular row of a cinema hall.
-
-## How to Use
-
-1. Run the `Main` class to start the cinema booking system.
-2. Follow the on-screen prompts to interact with the system:
-   - Select a cinema hall.
-   - Choose from options to book seats, cancel bookings, check seat availability, print seating arrangement, or exit.
-
-Enjoy using the cinema booking system!
