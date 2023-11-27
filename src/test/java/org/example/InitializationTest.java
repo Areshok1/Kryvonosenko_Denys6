@@ -13,12 +13,10 @@ public class InitializationTest {
 
         char[][][] halls = Initialization.initializeHall(numRows, numSeats, numHalls);
 
-        // Check dimensions
         assertEquals(numHalls, halls.length);
         assertEquals(numRows, halls[0].length);
         assertEquals(numSeats, halls[0][0].length);
 
-        // Check if all seats are initialized to 'O'
         for (int h = 0; h < numHalls; h++) {
             for (int i = 0; i < numRows; i++) {
                 for (int j = 0; j < numSeats; j++) {
